@@ -1,0 +1,84 @@
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #05080a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    width: 100%;
+    max-width: 400px; /* Hacer la tarjeta más angosta */
+    height: 600px; /* Hacer la tarjeta más alargada */
+    border-radius: 15px;
+    background-color: #0033a0; /* Azul de Boca Juniors */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: #ffffff; /* Color de texto blanco para contraste */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f7e03c; /* Amarillo de Boca Juniors */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Estilos de los campos de entrada */
+.form-label {
+    font-size: 1.1rem;
+    color: #f7e03c; /* Amarillo de Boca Juniors */
+}
+
+.form-control {
+    border: 2px solid #f7e03c; /* Amarillo de Boca Juniors */
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #0033a0; /* Azul de Boca Juniors */
+    color: #ffffff;
+}
+
+/* Botón */
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f7e03c; /* Amarillo de Boca Juniors */
+    color: #0033a0; /* Azul de Boca Juniors */
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-block:hover {
+    background-color: #e3c52f; /* Un tono más oscuro de amarillo para el hover */
+}
+
+/* Resultado */
+#resultado {
+    font-size: 1.5rem;
+    color: #f7e03c; /* Amarillo de Boca Juniors */
+    font-weight: 600;
+    text-align: center;
+}
+
